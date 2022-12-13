@@ -25,7 +25,7 @@ import torch
 
 import os
 import sys
-from transformers import GPT2Model # transformers-4.10.0-py3
+from transformers import GPT2LMHeadModel as GPT2Model
 dir_path = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(dir_path + "/../../../..")
 sys.path.append(dir_path)
